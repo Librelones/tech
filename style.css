@@ -12,6 +12,11 @@ p {
     color: aliceblue;
 }
 
+h2{
+  color: white;
+  font-size: 100%;
+}
+
 header {
     font-family: sans-serif;
     display: flex;
@@ -24,14 +29,54 @@ header {
     background-image: linear-gradient(to right, #e2e2e2,#898989);
 }
 
-.final {
+footer{
 
-    width: 500px;
-    height: 200px;
+    width: 414px;
+    height: 100px;
     margin-top: 120%;
     position: absolute;
-    background: red;
+    background: white;
+}  
+   
+footer:before{
+  content: '';
+  width: 100px;
+  text-align: center;
+  height: 100px;
+  border-radius: 50%;
+  background: #424242;
+  border: 10px solid #f2f2f2;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: -52px auto 0;
+}
 
+.icon1 {
+  
+  margin-top: 15px;
+  margin-left: 50px;
+
+}
+
+.icon2 {
+  margin-top: 10px;
+  margin-left: 350px;
+}
+
+.buttonshop {
+  margin-left: 13.3em;
+  margin-top: -2em;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 2px solid #424242;
+  background-color: #424242;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer; 
+  position: absolute;
+  color: #f2f2f2;  
 }
 
 .bt {
@@ -94,7 +139,6 @@ header {
 
 .intomiddle2{
 
-  
   color: #4c4c44;
   margin-left: 30px;
   margin-top: 300px;
@@ -130,8 +174,6 @@ div.scrollmenu a {
   padding: 14px;
   text-decoration: none;
 }
-
-
 
 @media screen and (min-width: 768px) {
 
